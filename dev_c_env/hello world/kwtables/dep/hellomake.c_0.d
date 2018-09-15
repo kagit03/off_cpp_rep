@@ -1,0 +1,1 @@
+/localdisk/dev_cpp_env/hello world/kwtables/obj/hellomake.c_0.o;/localdisk/dev_cpp_env/hello world/hellomake.c;/localdisk/dev_cpp_env/hello world/hellomake.h;/localdisk/tools_mangal/config/kb/cpp/fbkb_tags.h

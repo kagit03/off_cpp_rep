@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<errors version="1.4">
+    <categories name="MISRA C 2012 (C99)" locale="en">
+        <category name="Advisory rules">
+            <error id="LA_UNUSED"/>
+            <error id="MISRA.BREAK_OR_GOTO.MULTIPLE.2012"/>
+            <error id="MISRA.BUILTIN_NUMERIC"/>
+            <error id="MISRA.CAST.OBJ_PTR_TO_INT.2012"/>
+            <error id="MISRA.CAST.VOID_PTR_TO_OBJ_PTR.2012"/>
+            <error id="MISRA.CHAR.TRIGRAPH"/>
+            <error id="MISRA.COMMA"/>
+            <error id="MISRA.COMP.WRAPAROUND"/>
+            <error id="MISRA.DECL.ARRAY_SIZE"/>
+            <error id="MISRA.DEFINE.FUNC"/>
+            <error id="MISRA.DEFINE.SHARP"/>
+            <error id="MISRA.ETYPE.INAPPR.CAST.2012"/>
+            <error id="MISRA.EXPR.PARENS.2012"/>
+            <error id="MISRA.EXPR.PARENS.SIZEOF.2012"/>
+            <error id="MISRA.FUNC.MODIFIEDPAR.2012"/>
+            <error id="MISRA.FUNC.UNUSEDPAR.2012"/>
+            <error id="MISRA.INCL.INSIDE"/>
+            <error id="MISRA.PPARAM.NEEDS.CONST"/>
+            <error id="MISRA.PTR.TO_PTR_TO_PTR"/>
+            <error id="MISRA.UNDEF"/>
+            <error id="MISRA.UNION"/>
+        </category>
+        <category name="Mandatory rules">
+            <error id="FMM.MIGHT"/>
+            <error id="FMM.MUST"/>
+            <error id="FNH.MIGHT"/>
+            <error id="FNH.MUST"/>
+            <error id="FUM.GEN.MIGHT"/>
+            <error id="FUM.GEN.MUST"/>
+            <error id="FUNCRET.GEN"/>
+            <error id="FUNCRET.IMPLICIT"/>
+            <error id="MISRA.ASSIGN.OVERLAP"/>
+            <error id="MISRA.ASSIGN.SUBEXPR.2012"/>
+            <error id="MISRA.EXPR.SIZEOF.ARRAY_PARAM.2012_AMD1"/>
+            <error id="MISRA.FILE_PTR.DEREF.2012"/>
+            <error id="MISRA.FILE_PTR.DEREF.CAST.2012"/>
+            <error id="MISRA.FILE_PTR.DEREF.INDIRECT.2012"/>
+            <error id="MISRA.FILE_PTR.DEREF.RETURN.2012"/>
+            <error id="MISRA.FUNC.ARRAY.PARAM.STATIC.2012"/>
+            <error id="MISRA.GOTO"/>
+            <error id="MISRA.GOTO.AFTER_LABEL.2012"/>
+            <error id="MISRA.GOTO.NESTED.2012"/>
+            <error id="MISRA.RESOURCES.FILE.READ_ONLY_WRITE.2012"/>
+            <error id="MISRA.RESOURCES.FILE.USE_AFTER_CLOSE.2012"/>
+            <error id="MISRA.RETURN.NOT_LAST"/>
+            <error id="MISRA.SIZEOF.SIDE_EFFECT"/>
+            <error id="MISRA.TOKEN.BADCOM"/>
+            <error id="UNINIT.HEAP.MIGHT"/>
+            <error id="UNINIT.HEAP.MUST"/>
+            <error id="UNINIT.STACK.ARRAY.MIGHT"/>
+            <error id="UNINIT.STACK.ARRAY.MUST"/>
+            <error id="UNINIT.STACK.ARRAY.PARTIAL.MUST"/>
+            <error id="UNINIT.STACK.MIGHT"/>
+            <error id="UNINIT.STACK.MUST"/>
+        </category>
+        <category name="Required rules">
+            <error id="EFFECT"/>
+            <error id="FREE.INCONSISTENT"/>
+            <error id="INVARIANT_CONDITION.GEN"/>
+            <error id="INVARIANT_CONDITION.UNREACH"/>
+            <error id="LOCRET.ARG"/>
+            <error id="LOCRET.GLOB"/>
+            <error id="LOCRET.RET"/>
+            <error id="LV_UNUSED.GEN"/>
+            <error id="MISRA.ARRAY.VAR_LENGTH.2012"/>
+            <error id="MISRA.ASM.ENCAPS"/>
+            <error id="MISRA.BITFIELD.SIGNED"/>
+            <error id="MISRA.BITFIELD.TYPE"/>
+            <error id="MISRA.CAST.CONST"/>
+            <error id="MISRA.CAST.FUNC_PTR.2012"/>
+            <error id="MISRA.CAST.INCOMPLETE_PTR_TO_ANY.2012"/>
+            <error id="MISRA.CAST.OBJ_PTR_TO_NON_INT.2012"/>
+            <error id="MISRA.CAST.OBJ_PTR_TO_OBJ_PTR.2012"/>
+            <error id="MISRA.CAST.VOID_PTR_TO_INT.2012"/>
+            <error id="MISRA.CT.UNIQUE.ID"/>
+            <error id="MISRA.DECL.FUNC.INLINE.STATIC.2012"/>
+            <error id="MISRA.DEFINE.SHARP.ORDER.2012"/>
+            <error id="MISRA.DEFINE.SHARP.REPLACE.2012"/>
+            <error id="MISRA.DEFINE.STDIO.WCHAR.2012"/>
+            <error id="MISRA.DEFINE.WCSFTIME.2012"/>
+            <error id="MISRA.DEFINE.WRONGNAME"/>
+            <error id="MISRA.DEFINE.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.ELIF.OTHERFILE"/>
+            <error id="MISRA.ELIF.UNDEF"/>
+            <error id="MISRA.ELSE.OTHERFILE"/>
+            <error id="MISRA.ENDIF.OTHERFILE"/>
+            <error id="MISRA.ENUM.IMPLICIT.VAL.NON_UNIQUE.2012"/>
+            <error id="MISRA.ETYPE.ASSIGN.2012"/>
+            <error id="MISRA.ETYPE.CATEGORY.DIFFERENT.2012"/>
+            <error id="MISRA.ETYPE.COMP.ASSIGN.2012"/>
+            <error id="MISRA.ETYPE.COMP.CAST.EXPL.DIFFERENT.2012"/>
+            <error id="MISRA.ETYPE.COMP.CAST.EXPL.WIDER.2012"/>
+            <error id="MISRA.ETYPE.COMP.CAST.IMPL.WIDER.2012"/>
+            <error id="MISRA.ETYPE.INAPPR.CHAR.2012"/>
+            <error id="MISRA.ETYPE.INAPPR.OPERAND.BINOP.2012"/>
+            <error id="MISRA.ETYPE.INAPPR.OPERAND.INDEXPR.2012"/>
+            <error id="MISRA.ETYPE.INAPPR.OPERAND.TERNOP.2012"/>
+            <error id="MISRA.ETYPE.INAPPR.OPERAND.UNOP.2012"/>
+            <error id="MISRA.EXPANSION.DIRECTIVE"/>
+            <error id="MISRA.FOR.COUNTER.FLT"/>
+            <error id="MISRA.FUNC.NOPROT.CALL"/>
+            <error id="MISRA.FUNC.NOPROT.DEF"/>
+            <error id="MISRA.FUNC.NO_PARAMS"/>
+            <error id="MISRA.FUNC.PROT_FORM.KR.2012"/>
+            <error id="MISRA.FUNC.RECUR"/>
+            <error id="MISRA.FUNC.STATIC.REDECL"/>
+            <error id="MISRA.FUNC.UNMATCHED.PARAMS"/>
+            <error id="MISRA.FUNC.UNNAMED.PARAMS"/>
+            <error id="MISRA.FUNC.UNUSEDRET.2012"/>
+            <error id="MISRA.FUNC.VARARG"/>
+            <error id="MISRA.IDENT.DISTINCT.C99.2012"/>
+            <error id="MISRA.IF.NO_COMPOUND"/>
+            <error id="MISRA.IF.NO_ELSE"/>
+            <error id="MISRA.IF.UNDEF"/>
+            <error id="MISRA.INCGUARD"/>
+            <error id="MISRA.INCL.BAD"/>
+            <error id="MISRA.INCL.SIGNAL.2012"/>
+            <error id="MISRA.INCL.STDIO.2012"/>
+            <error id="MISRA.INCL.SYMS"/>
+            <error id="MISRA.INCL.TGMATH.2012"/>
+            <error id="MISRA.INCL.TIME.2012"/>
+            <error id="MISRA.INIT.BRACES.2012"/>
+            <error id="MISRA.INIT.MULTIPLE.2012"/>
+            <error id="MISRA.INIT.PARTIAL.2012"/>
+            <error id="MISRA.INIT.SIZE.IMPLICIT.2012"/>
+            <error id="MISRA.LITERAL.NULL.PTR.CONST.2012"/>
+            <error id="MISRA.LITERAL.UNSIGNED.SUFFIX"/>
+            <error id="MISRA.LOGIC.SIDEEFF"/>
+            <error id="MISRA.MEMB.FLEX_ARRAY.2012"/>
+            <error id="MISRA.SHIFT.RANGE.2012"/>
+            <error id="MISRA.STDLIB.ABORT"/>
+            <error id="MISRA.STDLIB.ATOI"/>
+            <error id="MISRA.STDLIB.BSEARCH.2012"/>
+            <error id="MISRA.STDLIB.LONGJMP"/>
+            <error id="MISRA.STDLIB.MEMORY"/>
+            <error id="MISRA.STDLIB.SIGNAL"/>
+            <error id="MISRA.STDLIB.STDIO"/>
+            <error id="MISRA.STDLIB.STDIO.WCHAR.2012"/>
+            <error id="MISRA.STDLIB.TIME"/>
+            <error id="MISRA.STDLIB.WCSFTIME.2012"/>
+            <error id="MISRA.STDLIB.WRONGNAME"/>
+            <error id="MISRA.STDLIB.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.STMT.COND.NOT_BOOLEAN.2012"/>
+            <error id="MISRA.STMT.NO_COMPOUND"/>
+            <error id="MISRA.STRING_LITERAL.NON_CONST.2012"/>
+            <error id="MISRA.SWITCH.COND.BOOL.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.BREAK.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.DEFAULT.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.DEFAULT.FIRST_OR_LAST.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.NESTED_LABEL.2012"/>
+            <error id="MISRA.SWITCH.WELL_FORMED.TWO_CLAUSES.2012"/>
+            <error id="MISRA.TOKEN.L.SUFFIX.FLOAT"/>
+            <error id="MISRA.TOKEN.L.SUFFIX.INT"/>
+            <error id="MISRA.TOKEN.OCTAL.INT"/>
+            <error id="MISRA.TYPE.RESTRICT.QUAL.2012"/>
+            <error id="MISRA.TYPEDEF.NOT_UNIQUE"/>
+            <error id="MISRA.UNDEF.WRONGNAME"/>
+            <error id="MISRA.UNDEF.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.USE.UNKNOWNDIR"/>
+            <error id="MISRA.VAR.HIDDEN"/>
+            <error id="MLK.MIGHT"/>
+            <error id="MLK.MUST"/>
+            <error id="MLK.RET.MIGHT"/>
+            <error id="MLK.RET.MUST"/>
+            <error id="PORTING.VAR.EFFECTS"/>
+            <error id="RH.LEAK"/>
+            <error id="UNREACH.GEN"/>
+            <error id="UNREACH.RETURN"/>
+            <error id="VA_UNUSED.GEN"/>
+            <error id="VA_UNUSED.INIT"/>
+        </category>
+        <errorAttr id="EFFECT" metainfo="2.2 (C99-2012 req.)"/>
+        <errorAttr id="FMM.MIGHT" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FMM.MUST" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FNH.MIGHT" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FNH.MUST" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FREE.INCONSISTENT" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="FUM.GEN.MIGHT" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FUM.GEN.MUST" metainfo="22.2 (C99-2012 mand.)"/>
+        <errorAttr id="FUNCRET.GEN" metainfo="17.4 (C99-2012 mand.)"/>
+        <errorAttr id="FUNCRET.IMPLICIT" metainfo="17.4 (C99-2012 mand.)"/>
+        <errorAttr id="INVARIANT_CONDITION.GEN" metainfo="14.3 (C99-2012 req.)"/>
+        <errorAttr id="INVARIANT_CONDITION.UNREACH" metainfo="14.3 (C99-2012 req.)"/>
+        <errorAttr id="LA_UNUSED" metainfo="2.6 (C99-2012 adv.)"/>
+        <errorAttr id="LOCRET.ARG" metainfo="18.6 (C99-2012 req.)"/>
+        <errorAttr id="LOCRET.GLOB" metainfo="18.6 (C99-2012 req.)"/>
+        <errorAttr id="LOCRET.RET" metainfo="18.6 (C99-2012 req.)"/>
+        <errorAttr id="LV_UNUSED.GEN" metainfo="2.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ARRAY.VAR_LENGTH.2012" metainfo="18.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ASM.ENCAPS" metainfo="Dir. 4.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ASSIGN.OVERLAP" metainfo="19.1 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.ASSIGN.SUBEXPR.2012" metainfo="13.4 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.BITFIELD.SIGNED" metainfo="6.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.BITFIELD.TYPE" metainfo="6.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.BREAK_OR_GOTO.MULTIPLE.2012" metainfo="15.4 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.BUILTIN_NUMERIC" metainfo="Dir. 4.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.CONST" metainfo="11.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.FUNC_PTR.2012" metainfo="11.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.INCOMPLETE_PTR_TO_ANY.2012" metainfo="11.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.OBJ_PTR_TO_INT.2012" metainfo="11.4 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.CAST.OBJ_PTR_TO_NON_INT.2012" metainfo="11.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.OBJ_PTR_TO_OBJ_PTR.2012" metainfo="11.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.VOID_PTR_TO_INT.2012" metainfo="11.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.CAST.VOID_PTR_TO_OBJ_PTR.2012" metainfo="11.5 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.CHAR.TRIGRAPH" metainfo="4.2 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.COMMA" metainfo="12.3 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.COMP.WRAPAROUND" metainfo="12.4 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.CT.UNIQUE.ID" metainfo="5.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DECL.ARRAY_SIZE" metainfo="8.11 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.DECL.FUNC.INLINE.STATIC.2012" metainfo="8.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.FUNC" metainfo="Dir. 4.9 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.SHARP" metainfo="20.10 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.DEFINE.SHARP.ORDER.2012" metainfo="20.11 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.SHARP.REPLACE.2012" metainfo="20.12 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.STDIO.WCHAR.2012" metainfo="21.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.WCSFTIME.2012" metainfo="21.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.WRONGNAME" metainfo="21.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.DEFINE.WRONGNAME.UNDERSCORE" metainfo="21.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ELIF.OTHERFILE" metainfo="20.14 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ELIF.UNDEF" metainfo="20.9 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ELSE.OTHERFILE" metainfo="20.14 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ENDIF.OTHERFILE" metainfo="20.14 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ENUM.IMPLICIT.VAL.NON_UNIQUE.2012" metainfo="8.12 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.ASSIGN.2012" metainfo="10.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.CATEGORY.DIFFERENT.2012" metainfo="10.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.COMP.ASSIGN.2012" metainfo="10.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.COMP.CAST.EXPL.DIFFERENT.2012" metainfo="10.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.COMP.CAST.EXPL.WIDER.2012" metainfo="10.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.COMP.CAST.IMPL.WIDER.2012" metainfo="10.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.CAST.2012" metainfo="10.5 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.CHAR.2012" metainfo="10.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.OPERAND.BINOP.2012" metainfo="10.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.OPERAND.INDEXPR.2012" metainfo="10.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.OPERAND.TERNOP.2012" metainfo="10.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.ETYPE.INAPPR.OPERAND.UNOP.2012" metainfo="10.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.EXPANSION.DIRECTIVE" metainfo="20.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.EXPR.PARENS.2012" metainfo="12.1 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.EXPR.PARENS.SIZEOF.2012" metainfo="12.1 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.FILE_PTR.DEREF.2012" metainfo="22.5 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.FILE_PTR.DEREF.CAST.2012" metainfo="22.5 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.FILE_PTR.DEREF.INDIRECT.2012" metainfo="22.5 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.FILE_PTR.DEREF.RETURN.2012" metainfo="22.5 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.FOR.COUNTER.FLT" metainfo="14.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.NOPROT.CALL" metainfo="8.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.NOPROT.DEF" metainfo="8.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.NO_PARAMS" metainfo="8.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.PROT_FORM.KR.2012" metainfo="8.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.RECUR" metainfo="17.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.STATIC.REDECL" metainfo="8.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNMATCHED.PARAMS" metainfo="8.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNNAMED.PARAMS" metainfo="8.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNUSEDPAR.2012" metainfo="2.7 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.FUNC.UNUSEDRET.2012" metainfo="17.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.FUNC.VARARG" metainfo="17.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.GOTO" metainfo="15.1 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.GOTO.AFTER_LABEL.2012" metainfo="15.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.GOTO.NESTED.2012" metainfo="15.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.IDENT.DISTINCT.C99.2012" metainfo="5.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.IF.NO_COMPOUND" metainfo="15.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.IF.NO_ELSE" metainfo="15.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.IF.UNDEF" metainfo="20.9 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCGUARD" metainfo="Dir. 4.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.BAD" metainfo="20.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.INSIDE" metainfo="20.1 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.INCL.SIGNAL.2012" metainfo="21.5 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.STDIO.2012" metainfo="21.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.SYMS" metainfo="20.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.TGMATH.2012" metainfo="21.11 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INCL.TIME.2012" metainfo="21.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INIT.BRACES.2012" metainfo="9.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INIT.MULTIPLE.2012" metainfo="9.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INIT.PARTIAL.2012" metainfo="9.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.INIT.SIZE.IMPLICIT.2012" metainfo="9.5 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.LITERAL.NULL.PTR.CONST.2012" metainfo="11.9 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.LITERAL.UNSIGNED.SUFFIX" metainfo="7.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.LOGIC.SIDEEFF" metainfo="13.5 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.MEMB.FLEX_ARRAY.2012" metainfo="18.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.PPARAM.NEEDS.CONST" metainfo="8.13 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.PTR.TO_PTR_TO_PTR" metainfo="18.5 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.RETURN.NOT_LAST" metainfo="15.5 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.SHIFT.RANGE.2012" metainfo="12.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SIZEOF.SIDE_EFFECT" metainfo="13.6 (C99-2012 mand.)"/>
+        <errorAttr id="MISRA.STDLIB.ABORT" metainfo="21.8 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.ATOI" metainfo="21.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.BSEARCH.2012" metainfo="21.9 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.LONGJMP" metainfo="21.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.MEMORY" metainfo="21.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.SIGNAL" metainfo="21.5 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.STDIO" metainfo="21.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.STDIO.WCHAR.2012" metainfo="21.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.TIME" metainfo="21.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.WCSFTIME.2012" metainfo="21.10 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.WRONGNAME" metainfo="21.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STDLIB.WRONGNAME.UNDERSCORE" metainfo="21.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STMT.COND.NOT_BOOLEAN.2012" metainfo="14.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STMT.NO_COMPOUND" metainfo="15.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.STRING_LITERAL.NON_CONST.2012" metainfo="7.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.COND.BOOL.2012" metainfo="16.7 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.2012" metainfo="16.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.BREAK.2012" metainfo="16.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.DEFAULT.2012" metainfo="16.4 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.DEFAULT.FIRST_OR_LAST.2012" metainfo="16.5 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.NESTED_LABEL.2012" metainfo="16.2 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.SWITCH.WELL_FORMED.TWO_CLAUSES.2012" metainfo="16.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TOKEN.BADCOM" metainfo="3.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TOKEN.L.SUFFIX.FLOAT" metainfo="7.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TOKEN.L.SUFFIX.INT" metainfo="7.3 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TOKEN.OCTAL.INT" metainfo="7.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TYPE.RESTRICT.QUAL.2012" metainfo="8.14 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.TYPEDEF.NOT_UNIQUE" metainfo="5.6 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.UNDEF" metainfo="20.5 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.UNDEF.WRONGNAME" metainfo="21.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.UNDEF.WRONGNAME.UNDERSCORE" metainfo="21.1 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.UNION" metainfo="19.2 (C99-2012 adv.)"/>
+        <errorAttr id="MISRA.USE.UNKNOWNDIR" metainfo="20.13 (C99-2012 req.)"/>
+        <errorAttr id="MISRA.VAR.HIDDEN" metainfo="5.3 (C99-2012 req.)"/>
+        <errorAttr id="MLK.MIGHT" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="MLK.MUST" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="MLK.RET.MIGHT" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="MLK.RET.MUST" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="PORTING.VAR.EFFECTS" metainfo="13.2 (C99-2012 req.)"/>
+        <errorAttr id="RH.LEAK" metainfo="22.1 (C99-2012 req.)"/>
+        <errorAttr id="UNINIT.HEAP.MIGHT" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.HEAP.MUST" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.MIGHT" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.MUST" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.PARTIAL.MUST" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.STACK.MIGHT" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNINIT.STACK.MUST" metainfo="9.1 (C99-2012 mand.)"/>
+        <errorAttr id="UNREACH.GEN" metainfo="2.1 (C99-2012 req.)"/>
+        <errorAttr id="UNREACH.RETURN" metainfo="2.1 (C99-2012 req.)"/>
+        <errorAttr id="VA_UNUSED.GEN" metainfo="2.2 (C99-2012 req.)"/>
+        <errorAttr id="VA_UNUSED.INIT" metainfo="2.2 (C99-2012 req.)"/>
+    </categories>
+</errors>

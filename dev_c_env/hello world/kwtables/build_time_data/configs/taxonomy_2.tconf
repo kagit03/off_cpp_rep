@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<errors version="1.4">
+    <categories name="MISRA C++ 2008" locale="ja">
+        <category name="必要(Required)">
+            <error id="CWARN.NOEFFECT.UCMP.GE"/>
+            <error id="CWARN.NOEFFECT.UCMP.GE.MACRO"/>
+            <error id="CWARN.NOEFFECT.UCMP.LT"/>
+            <error id="CWARN.NOEFFECT.UCMP.LT.MACRO"/>
+            <error id="FUNCRET.GEN"/>
+            <error id="LOCRET.ARG"/>
+            <error id="LOCRET.GLOB"/>
+            <error id="LOCRET.RET"/>
+            <error id="LV_UNUSED.GEN"/>
+            <error id="MISRA.ADDR.REF.PARAM"/>
+            <error id="MISRA.ADDR.REF.PARAM.PTR"/>
+            <error id="MISRA.ASM.ENCAPS"/>
+            <error id="MISRA.ASSIGN.COND"/>
+            <error id="MISRA.ASSIGN.OVERLAP"/>
+            <error id="MISRA.ASSIGN.SUBEXPR"/>
+            <error id="MISRA.BASE.MANYDEFS"/>
+            <error id="MISRA.BASE.VIRTUAL.NOTVIRTUAL"/>
+            <error id="MISRA.BIN_OP.OVERLOAD"/>
+            <error id="MISRA.BITFIELD.SIGNED"/>
+            <error id="MISRA.BITFIELD.TYPE.CPP"/>
+            <error id="MISRA.BITS.NOT_UNSIGNED"/>
+            <error id="MISRA.BITS.NOT_UNSIGNED.PREP"/>
+            <error id="MISRA.BITS.OPERAND"/>
+            <error id="MISRA.CAST.CONST"/>
+            <error id="MISRA.CAST.FLOAT.WIDER"/>
+            <error id="MISRA.CAST.FLOAT_INT"/>
+            <error id="MISRA.CAST.FUNC_PTR.CPP"/>
+            <error id="MISRA.CAST.INT.SIGN"/>
+            <error id="MISRA.CAST.INT.WIDER"/>
+            <error id="MISRA.CAST.INT_FLOAT"/>
+            <error id="MISRA.CAST.INT_TO_PTR"/>
+            <error id="MISRA.CAST.PTR.UNRELATED"/>
+            <error id="MISRA.CAST.PTR.VRCLASS"/>
+            <error id="MISRA.CAST.UNSIGNED_BITS"/>
+            <error id="MISRA.CATCH.BY_VALUE"/>
+            <error id="MISRA.CATCH.NOALL"/>
+            <error id="MISRA.CATCH.WRONGORD"/>
+            <error id="MISRA.CHAR.DIGRAPH"/>
+            <error id="MISRA.CHAR.NOT_CHARACTER"/>
+            <error id="MISRA.CHAR.OPERAND"/>
+            <error id="MISRA.CHAR.TRIGRAPH"/>
+            <error id="MISRA.COMMA"/>
+            <error id="MISRA.CONST.RET.NON_CONST"/>
+            <error id="MISRA.CONTINUE.ILL"/>
+            <error id="MISRA.CONV.FLOAT"/>
+            <error id="MISRA.CONV.INT.SIGN"/>
+            <error id="MISRA.CONV.NUM.NARROWER"/>
+            <error id="MISRA.COPY.CSTR.TMPL"/>
+            <error id="MISRA.COPYASSIGN.ABSTRACT"/>
+            <error id="MISRA.COPYASSIGN.TMPL"/>
+            <error id="MISRA.CT.UNIQUE.ID"/>
+            <error id="MISRA.CTOR.DYNAMIC"/>
+            <error id="MISRA.CTOR.NOT_EXPLICIT"/>
+            <error id="MISRA.CTOR.TRY.NON_STATIC"/>
+            <error id="MISRA.CVALUE.IMPL.CAST.CPP"/>
+            <error id="MISRA.C_CAST"/>
+            <error id="MISRA.DECL.ARRAY_SIZE"/>
+            <error id="MISRA.DECL.EXCPT.SPEC"/>
+            <error id="MISRA.DECL.FUNC_LOCAL"/>
+            <error id="MISRA.DECL.MANY_DCLS"/>
+            <error id="MISRA.DEFINE.BADEXP.CPP"/>
+            <error id="MISRA.DEFINE.FUNC"/>
+            <error id="MISRA.DEFINE.NOPARS"/>
+            <error id="MISRA.DEFINE.NOTGLOBAL"/>
+            <error id="MISRA.DEFINE.SHARP.MANY"/>
+            <error id="MISRA.DEFINE.WRONGNAME"/>
+            <error id="MISRA.DEFINE.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.DTOR.DYNAMIC"/>
+            <error id="MISRA.DTOR.THROW"/>
+            <error id="MISRA.ELIF.DEFINED"/>
+            <error id="MISRA.ELIF.OTHERFILE"/>
+            <error id="MISRA.ELIF.UNDEF"/>
+            <error id="MISRA.ELSE.OTHERFILE"/>
+            <error id="MISRA.ENDIF.OTHERFILE"/>
+            <error id="MISRA.ENUM.INIT"/>
+            <error id="MISRA.ENUM.OPERAND"/>
+            <error id="MISRA.EXPANSION.DIRECTIVE"/>
+            <error id="MISRA.EXPANSION.UNSAFE"/>
+            <error id="MISRA.EXPR.COND.NOT_BOOLEAN"/>
+            <error id="MISRA.FIELD.BIT.ENUM"/>
+            <error id="MISRA.FLOAT.BIT.REPR"/>
+            <error id="MISRA.FLOAT_EQUAL"/>
+            <error id="MISRA.FOR.COND.CHANGE"/>
+            <error id="MISRA.FOR.COND.EQ"/>
+            <error id="MISRA.FOR.COUNTER.FLT"/>
+            <error id="MISRA.FOR.COUNTER.MANY"/>
+            <error id="MISRA.FOR.INCR"/>
+            <error id="MISRA.FOR.LOOP_CONTROL.CHANGE.COND"/>
+            <error id="MISRA.FOR.LOOP_CONTROL.CHANGE.EXPR"/>
+            <error id="MISRA.FOR.LOOP_CONTROL.NOT_BOOLEAN"/>
+            <error id="MISRA.FOR.STMT.CHANGE"/>
+            <error id="MISRA.FUNC.ADDR"/>
+            <error id="MISRA.FUNC.ARRAY.PARAMS"/>
+            <error id="MISRA.FUNC.DECL.AFTERUSE"/>
+            <error id="MISRA.FUNC.PARAMS.IDENT"/>
+            <error id="MISRA.FUNC.SPEC.OVRLD"/>
+            <error id="MISRA.FUNC.STATIC.REDECL"/>
+            <error id="MISRA.FUNC.UNUSEDPAR"/>
+            <error id="MISRA.FUNC.UNUSEDPAR.UNNAMED"/>
+            <error id="MISRA.FUNC.UNUSEDRET"/>
+            <error id="MISRA.FUNC.VARARG"/>
+            <error id="MISRA.FUNC.VIRTUAL.UNUSEDPAR"/>
+            <error id="MISRA.FUNC_CAST"/>
+            <error id="MISRA.GENFU.ASSOC"/>
+            <error id="MISRA.GOTO.AFTER.LABEL"/>
+            <error id="MISRA.GOTO.NESTED"/>
+            <error id="MISRA.IF.DEFINED"/>
+            <error id="MISRA.IF.NO_COMPOUND"/>
+            <error id="MISRA.IF.NO_ELSE"/>
+            <error id="MISRA.IF.UNDEF"/>
+            <error id="MISRA.INCGUARD"/>
+            <error id="MISRA.INCL.BAD"/>
+            <error id="MISRA.INCL.INSIDE"/>
+            <error id="MISRA.INCL.SYMS"/>
+            <error id="MISRA.INCL.UNSAFE"/>
+            <error id="MISRA.INIT.BRACES"/>
+            <error id="MISRA.ITER.ONETERM"/>
+            <error id="MISRA.LINKAGE.EXTERN"/>
+            <error id="MISRA.LITERAL.NULL.INT"/>
+            <error id="MISRA.LITERAL.NULL.PTR"/>
+            <error id="MISRA.LITERAL.SUFFIX.CASE"/>
+            <error id="MISRA.LITERAL.UNSIGNED.SUFFIX"/>
+            <error id="MISRA.LOGIC.NOT_BOOL"/>
+            <error id="MISRA.LOGIC.OPERATOR.NOT_BOOL"/>
+            <error id="MISRA.LOGIC.POSTFIX"/>
+            <error id="MISRA.LOGIC.SIDEEFF"/>
+            <error id="MISRA.MEMB.NON_CONST"/>
+            <error id="MISRA.MEMB.NON_STATIC"/>
+            <error id="MISRA.MEMB.NOT_PRIVATE"/>
+            <error id="MISRA.NAMESPACE.DECL"/>
+            <error id="MISRA.NAMESPACE.DIR"/>
+            <error id="MISRA.NAMESPACE.UNMD"/>
+            <error id="MISRA.NS.GLOBAL"/>
+            <error id="MISRA.NS.GLOBAL.USING"/>
+            <error id="MISRA.NS.MAIN"/>
+            <error id="MISRA.NS.USING.HEADER"/>
+            <error id="MISRA.NS.USING_DECL"/>
+            <error id="MISRA.NS.USING_DIR"/>
+            <error id="MISRA.NULL.STMT"/>
+            <error id="MISRA.OBJ.TYPE.COMPAT"/>
+            <error id="MISRA.OBJ.TYPE.IDENT"/>
+            <error id="MISRA.ONEDEFRULE.FUNC"/>
+            <error id="MISRA.ONEDEFRULE.VAR"/>
+            <error id="MISRA.PPARAM.NEEDS.CONST"/>
+            <error id="MISRA.PRAGMA"/>
+            <error id="MISRA.PRAGMA.ASM"/>
+            <error id="MISRA.PTR.ARITH"/>
+            <error id="MISRA.PTR.TO_PTR_TO_PTR"/>
+            <error id="MISRA.PUREVIRT.OVRD"/>
+            <error id="MISRA.RET.REF.NON_CONST"/>
+            <error id="MISRA.RETURN.NOT_LAST"/>
+            <error id="MISRA.SAME.DEFPARAMS"/>
+            <error id="MISRA.SHIFT.RANGE"/>
+            <error id="MISRA.SIGNED_CHAR.NOT_NUMERIC"/>
+            <error id="MISRA.SIZEOF.SIDE_EFFECT"/>
+            <error id="MISRA.SPEC.ILL"/>
+            <error id="MISRA.SPEC.SAMEFILE"/>
+            <error id="MISRA.STDLIB.ABORT"/>
+            <error id="MISRA.STDLIB.ATOI"/>
+            <error id="MISRA.STDLIB.CSTRING"/>
+            <error id="MISRA.STDLIB.CSTRING.MACRO"/>
+            <error id="MISRA.STDLIB.ERRNO"/>
+            <error id="MISRA.STDLIB.LONGJMP"/>
+            <error id="MISRA.STDLIB.MEMORY"/>
+            <error id="MISRA.STDLIB.SIGNAL"/>
+            <error id="MISRA.STDLIB.STDIO"/>
+            <error id="MISRA.STDLIB.TIME"/>
+            <error id="MISRA.STDLIB.WRONGNAME"/>
+            <error id="MISRA.STDLIB.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.STMT.COND.NOT_BOOLEAN"/>
+            <error id="MISRA.STMT.NO_COMPOUND"/>
+            <error id="MISRA.STRINGS.CONCAT"/>
+            <error id="MISRA.SWITCH.BOOL"/>
+            <error id="MISRA.SWITCH.LABEL"/>
+            <error id="MISRA.SWITCH.NODEFAULT"/>
+            <error id="MISRA.SWITCH.NOT_WELL_FORMED"/>
+            <error id="MISRA.SWITCH.NO_BREAK"/>
+            <error id="MISRA.SWITCH.NO_CASE"/>
+            <error id="MISRA.TEMPLMEM.NOQUAL"/>
+            <error id="MISRA.TERMINATE"/>
+            <error id="MISRA.THROW.EMPTY"/>
+            <error id="MISRA.THROW.NULL"/>
+            <error id="MISRA.TOKEN.BADCOM"/>
+            <error id="MISRA.TOKEN.OCTAL.ESCAPE"/>
+            <error id="MISRA.TOKEN.OCTAL.INT"/>
+            <error id="MISRA.TOKEN.WRONGESC"/>
+            <error id="MISRA.TRY.JUMP"/>
+            <error id="MISRA.TYPE.NAMECLASH"/>
+            <error id="MISRA.TYPEDEF.NOT_UNIQUE"/>
+            <error id="MISRA.UMINUS.UNSIGNED"/>
+            <error id="MISRA.UNDEF"/>
+            <error id="MISRA.UNDEF.NOTGLOBAL"/>
+            <error id="MISRA.UNDEF.WRONGNAME"/>
+            <error id="MISRA.UNDEF.WRONGNAME.UNDERSCORE"/>
+            <error id="MISRA.UNION"/>
+            <error id="MISRA.UN_OP.OVERLOAD"/>
+            <error id="MISRA.USE.DEFINE"/>
+            <error id="MISRA.USE.EXPANSION"/>
+            <error id="MISRA.USE.UNKNOWNDIR"/>
+            <error id="MISRA.USE.WRONGDIR"/>
+            <error id="MISRA.VAR.HIDDEN"/>
+            <error id="MISRA.VAR.MIN.VIS"/>
+            <error id="MISRA.VAR.NEEDS.CONST"/>
+            <error id="MISRA.VIRTUAL.BASE.DIAMOND"/>
+            <error id="MISRA.VIRTUAL.NOVIRTUAL"/>
+            <error id="PORTING.VAR.EFFECTS"/>
+            <error id="UNINIT.CTOR.MIGHT"/>
+            <error id="UNINIT.CTOR.MUST"/>
+            <error id="UNINIT.HEAP.MIGHT"/>
+            <error id="UNINIT.HEAP.MUST"/>
+            <error id="UNINIT.STACK.ARRAY.MIGHT"/>
+            <error id="UNINIT.STACK.ARRAY.MUST"/>
+            <error id="UNINIT.STACK.ARRAY.PARTIAL.MUST"/>
+            <error id="UNINIT.STACK.MIGHT"/>
+            <error id="UNINIT.STACK.MUST"/>
+            <error id="UNREACH.GEN"/>
+            <error id="UNREACH.RETURN"/>
+            <error id="UNUSED.FUNC.GEN"/>
+            <error id="VA_UNUSED.GEN"/>
+            <error id="VA_UNUSED.INIT"/>
+        </category>
+        <category name="推奨(Advisory)">
+            <error id="MISRA.BASE.IDS.UNIQUE"/>
+            <error id="MISRA.BUILTIN_NUMERIC"/>
+            <error id="MISRA.CAST.POLY.TYPE"/>
+            <error id="MISRA.CAST.PTR_TO_INT"/>
+            <error id="MISRA.CATCH.ALL"/>
+            <error id="MISRA.COMP.WRAPAROUND"/>
+            <error id="MISRA.CTOR.BASE"/>
+            <error id="MISRA.DEFINE.SHARP"/>
+            <error id="MISRA.DERIVE.VIRTUAL"/>
+            <error id="MISRA.ELIF.WRAPAROUND"/>
+            <error id="MISRA.EXPR.PARENS.INSUFFICIENT"/>
+            <error id="MISRA.EXPR.PARENS.REDUNDANT"/>
+            <error id="MISRA.FUNC.RECUR"/>
+            <error id="MISRA.FUNC.SPEC.NOTSPEC"/>
+            <error id="MISRA.IF.WRAPAROUND"/>
+            <error id="MISRA.INCL.SYMS"/>
+            <error id="MISRA.INCR_DECR.OTHER"/>
+            <error id="MISRA.THROW.PTR"/>
+            <error id="MISRA.VAR.UNIQUE.STATIC"/>
+        </category>
+        <errorAttr id="CWARN.NOEFFECT.UCMP.GE" metainfo="0-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="CWARN.NOEFFECT.UCMP.GE.MACRO" metainfo="0-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="CWARN.NOEFFECT.UCMP.LT" metainfo="0-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="CWARN.NOEFFECT.UCMP.LT.MACRO" metainfo="0-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="FUNCRET.GEN" metainfo="8-4-3 (C++ 2008 req.)"/>
+        <errorAttr id="LOCRET.ARG" metainfo="7-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="LOCRET.GLOB" metainfo="7-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="LOCRET.RET" metainfo="7-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="LV_UNUSED.GEN" metainfo="0-1-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ADDR.REF.PARAM" metainfo="7-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ADDR.REF.PARAM.PTR" metainfo="7-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ASM.ENCAPS" metainfo="7-4-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ASSIGN.COND" metainfo="6-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ASSIGN.OVERLAP" metainfo="0-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ASSIGN.SUBEXPR" metainfo="6-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BASE.IDS.UNIQUE" metainfo="10-2-1 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.BASE.MANYDEFS" metainfo="10-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BASE.VIRTUAL.NOTVIRTUAL" metainfo="10-1-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BIN_OP.OVERLOAD" metainfo="5-2-11 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BITFIELD.SIGNED" metainfo="9-6-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BITFIELD.TYPE.CPP" metainfo="9-6-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BITS.NOT_UNSIGNED" metainfo="5-0-21 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BITS.NOT_UNSIGNED.PREP" metainfo="5-0-21 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BITS.OPERAND" metainfo="5-0-20 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.BUILTIN_NUMERIC" metainfo="3-9-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CAST.CONST" metainfo="5-2-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.FLOAT.WIDER" metainfo="5-0-8 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.FLOAT_INT" metainfo="5-0-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.FUNC_PTR.CPP" metainfo="5-2-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.INT.SIGN" metainfo="5-0-9 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.INT.WIDER" metainfo="5-0-8 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.INT_FLOAT" metainfo="5-0-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.INT_TO_PTR" metainfo="5-2-8 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.POLY.TYPE" metainfo="5-2-3 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CAST.PTR.UNRELATED" metainfo="5-2-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.PTR.VRCLASS" metainfo="5-2-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CAST.PTR_TO_INT" metainfo="5-2-9 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CAST.UNSIGNED_BITS" metainfo="5-0-10 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CATCH.ALL" metainfo="15-3-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CATCH.BY_VALUE" metainfo="15-3-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CATCH.NOALL" metainfo="15-3-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CATCH.WRONGORD" metainfo="15-3-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CHAR.DIGRAPH" metainfo="2-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CHAR.NOT_CHARACTER" metainfo="5-0-11 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CHAR.OPERAND" metainfo="4-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CHAR.TRIGRAPH" metainfo="2-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.COMMA" metainfo="5-18-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.COMP.WRAPAROUND" metainfo="5-19-1 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CONST.RET.NON_CONST" metainfo="9-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CONTINUE.ILL" metainfo="6-6-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CONV.FLOAT" metainfo="5-0-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CONV.INT.SIGN" metainfo="5-0-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CONV.NUM.NARROWER" metainfo="5-0-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.COPY.CSTR.TMPL" metainfo="14-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.COPYASSIGN.ABSTRACT" metainfo="12-8-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.COPYASSIGN.TMPL" metainfo="14-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CT.UNIQUE.ID" metainfo="2-10-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CTOR.BASE" metainfo="12-1-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.CTOR.DYNAMIC" metainfo="12-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CTOR.NOT_EXPLICIT" metainfo="12-1-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CTOR.TRY.NON_STATIC" metainfo="15-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.CVALUE.IMPL.CAST.CPP" metainfo="5-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.C_CAST" metainfo="5-2-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DECL.ARRAY_SIZE" metainfo="3-1-3 ()required"/>
+        <errorAttr id="MISRA.DECL.EXCPT.SPEC" metainfo="15-4-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DECL.FUNC_LOCAL" metainfo="3-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DECL.MANY_DCLS" metainfo="8-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.BADEXP.CPP" metainfo="16-2-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.FUNC" metainfo="16-0-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.NOPARS" metainfo="16-0-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.NOTGLOBAL" metainfo="16-0-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.SHARP" metainfo="16-3-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.DEFINE.SHARP.MANY" metainfo="16-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.WRONGNAME" metainfo="17-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DEFINE.WRONGNAME.UNDERSCORE" metainfo="17-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DERIVE.VIRTUAL" metainfo="10-1-1 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.DTOR.DYNAMIC" metainfo="12-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.DTOR.THROW" metainfo="15-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ELIF.DEFINED" metainfo="16-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ELIF.OTHERFILE" metainfo="16-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ELIF.UNDEF" metainfo="16-0-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ELIF.WRAPAROUND" metainfo="5-19-1 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.ELSE.OTHERFILE" metainfo="16-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ENDIF.OTHERFILE" metainfo="16-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ENUM.INIT" metainfo="8-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ENUM.OPERAND" metainfo="4-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.EXPANSION.DIRECTIVE" metainfo="16-0-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.EXPANSION.UNSAFE" metainfo="17-0-5, 18-0-1, 18-2-1, 18-7-1, 19-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.EXPR.COND.NOT_BOOLEAN" metainfo="5-0-14 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.EXPR.PARENS.INSUFFICIENT" metainfo="5-0-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.EXPR.PARENS.REDUNDANT" metainfo="5-0-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.FIELD.BIT.ENUM" metainfo="9-6-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FLOAT.BIT.REPR" metainfo="3-9-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FLOAT_EQUAL" metainfo="6-2-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.COND.CHANGE" metainfo="6-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.COND.EQ" metainfo="6-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.COUNTER.FLT" metainfo="6-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.COUNTER.MANY" metainfo="6-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.INCR" metainfo="6-5-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.LOOP_CONTROL.CHANGE.COND" metainfo="6-5-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.LOOP_CONTROL.CHANGE.EXPR" metainfo="6-5-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.LOOP_CONTROL.NOT_BOOLEAN" metainfo="6-5-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FOR.STMT.CHANGE" metainfo="6-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.ADDR" metainfo="8-4-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.ARRAY.PARAMS" metainfo="5-2-12 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.DECL.AFTERUSE" metainfo="14-6-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.PARAMS.IDENT" metainfo="8-4-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.RECUR" metainfo="7-5-4 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.FUNC.SPEC.NOTSPEC" metainfo="14-8-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.FUNC.SPEC.OVRLD" metainfo="14-8-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.STATIC.REDECL" metainfo="3-3-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNUSEDPAR" metainfo="0-1-11 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNUSEDPAR.UNNAMED" metainfo="0-1-11 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.UNUSEDRET" metainfo="0-1-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.VARARG" metainfo="8-4-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC.VIRTUAL.UNUSEDPAR" metainfo="0-1-12 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.FUNC_CAST" metainfo="5-2-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.GENFU.ASSOC" metainfo="14-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.GOTO.AFTER.LABEL" metainfo="6-6-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.GOTO.NESTED" metainfo="6-6-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.IF.DEFINED" metainfo="16-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.IF.NO_COMPOUND" metainfo="6-4-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.IF.NO_ELSE" metainfo="6-4-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.IF.UNDEF" metainfo="16-0-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.IF.WRAPAROUND" metainfo="5-19-1 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.INCGUARD" metainfo="16-2-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.INCL.BAD" metainfo="16-2-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.INCL.INSIDE" metainfo="16-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.INCL.SYMS" metainfo="16-2-4 (C++ 2008 req.), 16-2-5 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.INCL.UNSAFE" metainfo="18-0-2, 18-0-4, 18-7-1, 27-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.INCR_DECR.OTHER" metainfo="5-2-10 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.INIT.BRACES" metainfo="8-5-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ITER.ONETERM" metainfo="6-6-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LINKAGE.EXTERN" metainfo="3-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LITERAL.NULL.INT" metainfo="4-10-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LITERAL.NULL.PTR" metainfo="4-10-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LITERAL.SUFFIX.CASE" metainfo="2-13-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LITERAL.UNSIGNED.SUFFIX" metainfo="2-13-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LOGIC.NOT_BOOL" metainfo="5-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LOGIC.OPERATOR.NOT_BOOL" metainfo="4-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LOGIC.POSTFIX" metainfo="5-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.LOGIC.SIDEEFF" metainfo="5-14-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.MEMB.NON_CONST" metainfo="9-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.MEMB.NON_STATIC" metainfo="9-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.MEMB.NOT_PRIVATE" metainfo="11-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NAMESPACE.DECL" metainfo="7-3-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NAMESPACE.DIR" metainfo="7-3-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NAMESPACE.UNMD" metainfo="7-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.GLOBAL" metainfo="7-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.GLOBAL.USING" metainfo="7-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.MAIN" metainfo="7-3-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.USING.HEADER" metainfo="7-3-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.USING_DECL" metainfo="7-3-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NS.USING_DIR" metainfo="7-3-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.NULL.STMT" metainfo="6-2-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.OBJ.TYPE.COMPAT" metainfo="3-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.OBJ.TYPE.IDENT" metainfo="3-9-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ONEDEFRULE.FUNC" metainfo="3-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.ONEDEFRULE.VAR" metainfo="3-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.PPARAM.NEEDS.CONST" metainfo="7-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.PRAGMA" metainfo="16-6-1 (document)"/>
+        <errorAttr id="MISRA.PRAGMA.ASM" metainfo="7-4-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.PTR.ARITH" metainfo="5-0-15 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.PTR.TO_PTR_TO_PTR" metainfo="5-0-19 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.PUREVIRT.OVRD" metainfo="10-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.RET.REF.NON_CONST" metainfo="9-3-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.RETURN.NOT_LAST" metainfo="6-6-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SAME.DEFPARAMS" metainfo="8-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SHIFT.RANGE" metainfo="5-8-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SIGNED_CHAR.NOT_NUMERIC" metainfo="5-0-12 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SIZEOF.SIDE_EFFECT" metainfo="5-3-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SPEC.ILL" metainfo="14-7-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SPEC.SAMEFILE" metainfo="14-7-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.ABORT" metainfo="18-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.ATOI" metainfo="18-0-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.CSTRING" metainfo="18-0-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.CSTRING.MACRO" metainfo="18-0-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.ERRNO" metainfo="19-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.LONGJMP" metainfo="17-0-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.MEMORY" metainfo="18-4-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.SIGNAL" metainfo="18-7-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.STDIO" metainfo="27-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.TIME" metainfo="18-0-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.WRONGNAME" metainfo="17-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STDLIB.WRONGNAME.UNDERSCORE" metainfo="17-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STMT.COND.NOT_BOOLEAN" metainfo="5-0-13 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STMT.NO_COMPOUND" metainfo="6-3-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.STRINGS.CONCAT" metainfo="2-13-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.BOOL" metainfo="6-4-7 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.LABEL" metainfo="6-4-4 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.NODEFAULT" metainfo="6-4-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.NOT_WELL_FORMED" metainfo="6-4-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.NO_BREAK" metainfo="6-4-5 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.SWITCH.NO_CASE" metainfo="6-4-8 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TEMPLMEM.NOQUAL" metainfo="14-6-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TERMINATE" metainfo="15-5-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.THROW.EMPTY" metainfo="15-1-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.THROW.NULL" metainfo="15-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.THROW.PTR" metainfo="15-0-2 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.TOKEN.BADCOM" metainfo="2-7-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TOKEN.OCTAL.ESCAPE" metainfo="2-13-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TOKEN.OCTAL.INT" metainfo="2-13-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TOKEN.WRONGESC" metainfo="2-13-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TRY.JUMP" metainfo="15-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TYPE.NAMECLASH" metainfo="2-10-6 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.TYPEDEF.NOT_UNIQUE" metainfo="2-10-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UMINUS.UNSIGNED" metainfo="5-3-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UNDEF" metainfo="16-0-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UNDEF.NOTGLOBAL" metainfo="16-0-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UNDEF.WRONGNAME" metainfo="17-0-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UNDEF.WRONGNAME.UNDERSCORE" metainfo="17-0-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UNION" metainfo="9-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.UN_OP.OVERLOAD" metainfo="5-3-3 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.USE.DEFINE" metainfo="16-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.USE.EXPANSION" metainfo="16-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.USE.UNKNOWNDIR" metainfo="16-0-8 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.USE.WRONGDIR" metainfo="16-2-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.VAR.HIDDEN" metainfo="2-10-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.VAR.MIN.VIS" metainfo="3-4-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.VAR.NEEDS.CONST" metainfo="7-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.VAR.UNIQUE.STATIC" metainfo="2-10-5 (C++ 2008 adv.)"/>
+        <errorAttr id="MISRA.VIRTUAL.BASE.DIAMOND" metainfo="10-1-2 (C++ 2008 req.)"/>
+        <errorAttr id="MISRA.VIRTUAL.NOVIRTUAL" metainfo="10-3-2 (C++ 2008 req.)"/>
+        <errorAttr id="PORTING.VAR.EFFECTS" metainfo="5-0-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.CTOR.MIGHT" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.CTOR.MUST" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.HEAP.MIGHT" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.HEAP.MUST" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.MIGHT" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.MUST" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.STACK.ARRAY.PARTIAL.MUST" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.STACK.MIGHT" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNINIT.STACK.MUST" metainfo="8-5-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNREACH.GEN" metainfo="0-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNREACH.RETURN" metainfo="0-1-1 (C++ 2008 req.)"/>
+        <errorAttr id="UNUSED.FUNC.GEN" metainfo="0-1-10 (C++ 2008 req.)"/>
+        <errorAttr id="VA_UNUSED.GEN" metainfo="0-1-9 (C++ 2008 req.)"/>
+        <errorAttr id="VA_UNUSED.INIT" metainfo="0-1-9 (C++ 2008 req.)"/>
+    </categories>
+</errors>

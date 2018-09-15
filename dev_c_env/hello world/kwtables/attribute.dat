@@ -1,0 +1,215 @@
+309;header-location;system
+309;language;c
+401;header-location;system
+401;language;c
+442;header-location;system
+442;language;c
+282;header-location;system
+282;language;c
+425;header-location;system
+425;language;c
+515;header-location;system
+515;language;c
+314;header-location;system
+314;language;c
+384;header-location;system
+384;language;c
+608;language;c
+9;header-location;system
+9;language;c
+278;translation-mode;implementation
+278;language;c
+382;header-location;system
+382;language;c
+596;header-location;system
+596;language;c
+493;header-location;system
+493;language;c
+5;header-location;system
+5;language;c
+851;issystem;true
+851;language;c
+286;header-location;system
+286;language;c
+370;header-location;system
+370;language;c
+486;header-location;system
+486;language;c
+607;header-location;system
+607;language;c
+849;translation-mode;implementation
+849;language;c
+488;header-location;system
+488;language;c
+845;_signature;void funlockfile(FILE*)
+744;_signature;__ssize_t _IO_padn(_IO_FILE*, int, __ssize_t)
+827;_signature;int fgetpos(FILE*, fpos_t*)
+828;_signature;int fsetpos(FILE*, const fpos_t*)
+776;externality;declared
+776;_signature;int printf(const char*, ...)
+852;externality;unknown
+852;_signature;int printf(const char*, ...)
+830;_signature;int feof(FILE*)
+816;_signature;int puts(const char*)
+772;_signature;int setvbuf(FILE*, char*, int, size_t)
+850;_signature;int main()
+723;externality;declared
+723;typetag;struct
+853;externality;unknown
+853;typetag;struct
+807;_signature;int putc_unlocked(int, FILE*)
+841;_signature;int pclose(FILE*)
+783;_signature;int vdprintf(int, const char*, __gnuc_va_list)
+756;_signature;int remove(const char*)
+679;externality;imported
+679;externality;unknown
+737;_signature;int _IO_ferror(_IO_FILE*)
+745;_signature;size_t _IO_sgetn(_IO_FILE*, void*, size_t)
+805;_signature;int putchar(int)
+762;_signature;char* tempnam(const char*, const char*)
+813;_signature;__ssize_t getdelim(char**, size_t*, int, FILE*)
+775;_signature;int fprintf(FILE*, const char*, ...)
+763;_signature;int fclose(FILE*)
+771;_signature;void setbuf(FILE*, char*)
+666;typetag;struct
+667;member-access;public
+668;member-access;public
+669;typetag;union
+670;member-access;public
+671;member-access;public
+777;_signature;int sprintf(char*, const char*, ...)
+804;_signature;int putc(int, FILE*)
+789;_signature;int scanf(const char*, ...)
+786;_signature;int scanf(const char*, ...)
+780;_signature;int vsprintf(char*, const char*, __gnuc_va_list)
+808;_signature;int putchar_unlocked(int)
+801;_signature;int getchar_unlocked()
+814;_signature;__ssize_t getline(char**, size_t*, FILE*)
+740;_signature;void _IO_funlockfile(_IO_FILE*)
+758;_signature;int renameat(int, const char*, int, const char*)
+821;_signature;size_t fwrite_unlocked(const void*, size_t, size_t, FILE*)
+767;_signature;FILE* freopen(const char*, const char*, FILE*)
+833;_signature;int feof_unlocked(FILE*)
+838;_signature;int fileno(FILE*)
+844;_signature;int ftrylockfile(FILE*)
+773;_signature;void setbuffer(FILE*, char*, size_t)
+778;_signature;int vfprintf(FILE*, const char*, __gnuc_va_list)
+806;_signature;int fputc_unlocked(int, FILE*)
+687;typetag;enum
+743;_signature;int _IO_vfprintf(_IO_FILE*, const char*, __gnuc_va_list)
+747;_signature;__off64_t _IO_seekpos(_IO_FILE*, __off64_t, int)
+779;_signature;int vprintf(const char*, __gnuc_va_list)
+782;_signature;int vsnprintf(char*, size_t, const char*, __gnuc_va_list)
+797;_signature;int fgetc(FILE*)
+732;_signature;int __uflow(_IO_FILE*)
+741;_signature;int _IO_ftrylockfile(_IO_FILE*)
+817;_signature;int ungetc(int, FILE*)
+823;_signature;long int ftell(FILE*)
+746;_signature;__off64_t _IO_seekoff(_IO_FILE*, __off64_t, int, int)
+781;_signature;int snprintf(char*, size_t, const char*, ...)
+834;_signature;int ferror_unlocked(FILE*)
+748;_signature;void _IO_free_backup_area(_IO_FILE*)
+840;_signature;FILE* popen(const char*, const char*)
+800;_signature;int getc_unlocked(FILE*)
+846;_signature;void myPrintHelloMake()
+848;_signature;void myPrintHelloMake()
+757;_signature;int rename(const char*, const char*)
+768;_signature;FILE* fdopen(int, const char*)
+796;_signature;int vsscanf(const char*, const char*, __gnuc_va_list)
+793;_signature;int vsscanf(const char*, const char*, __gnuc_va_list)
+798;_signature;int getc(FILE*)
+764;_signature;int fflush(FILE*)
+683;typetag;struct
+685;member-access;public
+684;member-access;public
+686;member-access;public
+809;_signature;int getw(FILE*)
+810;_signature;int putw(int, FILE*)
+825;_signature;int fseeko(FILE*, __off_t, int)
+839;_signature;int fileno_unlocked(FILE*)
+795;_signature;int vscanf(const char*, __gnuc_va_list)
+792;_signature;int vscanf(const char*, __gnuc_va_list)
+736;_signature;int _IO_feof(_IO_FILE*)
+761;_signature;char* tmpnam_r(char*)
+731;_signature;int __underflow(_IO_FILE*)
+819;_signature;size_t fwrite(const void*, size_t, size_t, FILE*)
+802;_signature;int fgetc_unlocked(FILE*)
+812;_signature;__ssize_t __getdelim(char**, size_t*, int, FILE*)
+843;_signature;void flockfile(FILE*)
+770;_signature;FILE* open_memstream(char**, size_t*)
+634;typetag;struct
+635;member-access;public
+734;_signature;int _IO_getc(_IO_FILE*)
+831;_signature;int ferror(FILE*)
+739;_signature;void _IO_flockfile(_IO_FILE*)
+769;_signature;FILE* fmemopen(void*, size_t, const char*)
+790;_signature;int sscanf(const char*, const char*, ...)
+787;_signature;int sscanf(const char*, const char*, ...)
+815;_signature;int fputs(const char*, FILE*)
+759;_signature;FILE* tmpfile()
+742;_signature;int _IO_vfscanf(_IO_FILE*, const char*, __gnuc_va_list, int*)
+765;_signature;int fflush_unlocked(FILE*)
+794;_signature;int vfscanf(FILE*, const char*, __gnuc_va_list)
+791;_signature;int vfscanf(FILE*, const char*, __gnuc_va_list)
+672;typetag;struct
+674;member-access;public
+673;member-access;public
+835;_signature;void perror(const char*)
+680;typetag;struct
+803;_signature;int fputc(int, FILE*)
+818;_signature;size_t fread(void*, size_t, size_t, FILE*)
+826;_signature;__off_t ftello(FILE*)
+847;_signature;void myKwDemo()
+829;_signature;void clearerr(FILE*)
+842;_signature;char* ctermid(char*)
+799;_signature;int getchar()
+735;_signature;int _IO_putc(int, _IO_FILE*)
+766;_signature;FILE* fopen(const char*, const char*)
+774;_signature;void setlinebuf(FILE*)
+681;typetag;struct
+663;typetag;struct
+692;typetag;struct
+695;member-access;public
+696;member-access;public
+704;member-access;public
+705;member-access;public
+719;member-access;public
+703;member-access;public
+706;member-access;public
+716;member-access;public
+720;member-access;public
+699;member-access;public
+715;member-access;public
+709;member-access;public
+717;member-access;public
+708;member-access;public
+713;member-access;public
+707;member-access;public
+714;member-access;public
+702;member-access;public
+712;member-access;public
+694;member-access;public
+697;member-access;public
+693;member-access;public
+700;member-access;public
+718;member-access;public
+721;member-access;public
+711;member-access;public
+710;member-access;public
+701;member-access;public
+698;member-access;public
+675;typetag;struct
+677;member-access;public
+676;member-access;public
+738;_signature;int _IO_peekc_locked(_IO_FILE*)
+784;_signature;int dprintf(int, const char*, ...)
+811;_signature;char* fgets(char*, int, FILE*)
+733;_signature;int __overflow(_IO_FILE*, int)
+822;_signature;int fseek(FILE*, long int, int)
+760;_signature;char* tmpnam(char*)
+824;_signature;void rewind(FILE*)
+820;_signature;size_t fread_unlocked(void*, size_t, size_t, FILE*)
+788;_signature;int fscanf(FILE*, const char*, ...)
+785;_signature;int fscanf(FILE*, const char*, ...)
+832;_signature;void clearerr_unlocked(FILE*)
+1;__locs;11

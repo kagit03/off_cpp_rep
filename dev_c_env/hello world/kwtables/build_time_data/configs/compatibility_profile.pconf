@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<errors language="Any" version="1.4">
+    <error enabled="false" id="MS.BANNED.ALLOCA"/>
+    <error enabled="false" id="MS.BANNED.CONCAT"/>
+    <error enabled="false" id="MS.BANNED.COPY"/>
+    <error enabled="false" id="MS.BANNED.GETS"/>
+    <error enabled="false" id="MS.BANNED.ISBAD"/>
+    <error enabled="false" id="MS.BANNED.NUMERIC"/>
+    <error enabled="false" id="MS.BANNED.OEM"/>
+    <error enabled="false" id="MS.BANNED.PATH"/>
+    <error enabled="false" id="MS.BANNED.SCANF"/>
+    <error enabled="false" id="MS.BANNED.SPRINTF"/>
+    <error enabled="false" id="MS.BANNED.TOKEN"/>
+</errors>
